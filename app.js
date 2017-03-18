@@ -9,29 +9,33 @@
 */
 
 // Addition (+)
-5 + 9;
+console.log(5 + 9);
 
 "one" + "one";
 
 // Subtraction (-)
-8 - 20;
+console.log(8 - 20);//-12
 
 // Multiplication (*)
-2 * 0;
+console.log(2 * 0);//0
 
 // Division (/)
-15/50;
+console.log(15/50);//0.3
 
 // Modulus (%)
-5 % 2;
+console.log(5 % 2);//1
 
 // Increment (++)
 2++;
-
+var Increment = 1337;
+Increment++
 -1++;
 
 // Decrement (--)
 5--;
+var numbers = 5;
+numbers--;
+console.log(numbers);
 
 /*
 * Comparison Operators (These return a boolean value of true or false)
